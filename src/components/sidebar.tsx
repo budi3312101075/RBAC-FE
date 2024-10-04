@@ -27,7 +27,7 @@ const Sidebar = () => {
   };
   return (
     <>
-      <div className="bg-[#161618] h-14 w-full absolute pl-[calc(100%-80rem)] ">
+      <div className="bg-gray-900 h-14 w-full absolute pl-[calc(100%-80rem)] ">
         <div className="flex justify-between px-5 items-center text-white mt-4">
           <div className="flex items-center lg:hidden ">
             <TbBrandReact size={20} />
@@ -46,7 +46,7 @@ const Sidebar = () => {
       </div>
 
       <div
-        className={`fixed top-0 left-0 w-60 min-h-screen bg-[#161618] text-white p-4 z-40 transform transition-transform duration-300 ease-in-out lg:translate-x-0
+        className={`fixed top-0 left-0 w-60 min-h-screen bg-gray-900 text-white p-4 z-40 transform transition-transform duration-300 ease-in-out lg:translate-x-0
         ${nav ? "translate-x-0" : "-translate-x-full"}`}
       >
         <div className="flex gap-2 items-center">

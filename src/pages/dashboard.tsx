@@ -1,5 +1,8 @@
+import { useAuth } from "../store/auth";
+
 const Dashboard = () => {
-  return <div>Dashboard</div>;
+  const { loginResponse } = useAuth();
+  return <div>Dashboard {loginResponse}</div>;
 };
 
 export default Dashboard;
