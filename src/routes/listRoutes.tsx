@@ -4,6 +4,7 @@ import Permissions from "../pages/permissions";
 import Team from "../pages/team";
 import Roles from "../pages/roles";
 import Users from "../pages/users";
+import ChangePermission from "../pages/changePermission";
 
 export const route: RouteType[] = [
   {
@@ -18,6 +19,12 @@ export const route: RouteType[] = [
     name: "Permissions",
     path: "/permissions",
     element: <Permissions />,
+  },
+  {
+    id: "06995435-b0c0-42d1-9a76-730a0d9575ce",
+    name: "-",
+    path: "/permissions/:roleId",
+    element: <ChangePermission />,
   },
   {
     id: "06995435-b0c0-42d1-9a76-euri37e6531",

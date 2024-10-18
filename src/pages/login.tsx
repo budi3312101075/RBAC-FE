@@ -5,7 +5,7 @@ import { TbPassword } from "react-icons/tb";
 import { AiFillEyeInvisible } from "react-icons/ai";
 import { IoEyeSharp } from "react-icons/io5";
 import { useState } from "react";
-import { handleLoginSubmit } from "../api/auth/auth";
+import { handleLoginSubmit } from "../api/auth";
 import { useAuth } from "../store/auth";
 import { useNavigate } from "react-router-dom";
 

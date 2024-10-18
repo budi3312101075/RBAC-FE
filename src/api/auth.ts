@@ -1,5 +1,5 @@
 import axios from "axios";
-import { IFormInputLogin } from "../../interface/auth";
+import { IFormInputLogin } from "../interface/auth";
 import { NavigateFunction } from "react-router-dom";
 
 export const handleLoginSubmit = async (

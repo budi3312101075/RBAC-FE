@@ -5,7 +5,7 @@ import { RxDashboard } from "react-icons/rx";
 import { MdExpandMore, MdExpandLess } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
-import { handleLogoutSubmit } from "../api/auth/auth";
+import { handleLogoutSubmit } from "../api/auth";
 import { useAuth } from "../store/auth";
 import { jwtDecode } from "jwt-decode";
 import { route } from "../routes/listRoutes";
